@@ -1,11 +1,15 @@
 # 🌲Linktree Pessoal
 
-### Feito para estudo de Scss!
+# Apresentação
+Esse projeto foi feito para estudo de Scss! Nele aprendi coisas bem simples de Scss.
 
-### Tarefas:
-- [x] Versão desktop
-- [x] Versão mobile
-- [x] Deploy na vercel
-- [ ] Readme
+<center>
+    <img src="./images/example.PNG" />
+    <a href="https://linktree-jpres.vercel.app/">Link para o projeto</a>
+</center>
 
-## ⚠️👨‍🔧README EM CONSTRUÇÃO👨‍🔧⚠️
+## Tecnologias Utilizadas:
+
+* HTML
+* Scss
+* Vercel (para deploy)
