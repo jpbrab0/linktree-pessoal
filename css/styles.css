@@ -50,8 +50,8 @@ main .links {
 }
 
 main .links a.link {
-  width: 35%;
-  padding: 13px 0;
+  min-width: 35%;
+  padding: 16px 0;
   border-radius: 13px;
   text-decoration: none;
   color: #fff;
@@ -75,23 +75,46 @@ main .links a.link img {
   margin-right: 13px;
 }
 
-main .links .twitter {
+main .links a.twitter {
   background-color: #1DA1F2;
 }
 
-main .links .twitch {
+main .links a.twitch {
   background-color: #9146ff;
 }
 
-main .links .github {
+main .links a.github {
   background-color: #24292e;
 }
 
-main .links .youtube {
+main .links a.youtube {
   background-color: #ff0000;
 }
 
-main .links .linkedin {
+main .links a.linkedin {
   background-color: #48B5F0;
+}
+
+main .links a.ctrlplay {
+  background-color: #e46a03;
+  padding: 23px 0;
+}
+
+main .links a.ctrlplay img {
+  width: 25%;
+}
+
+@media (max-width: 800px) {
+  main img.face {
+    width: 30%;
+  }
+  main h2 {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  main .links a.link {
+    width: 80%;
+    padding: 13px 23px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

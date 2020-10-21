@@ -4,7 +4,8 @@
 
 ### Tarefas:
 - [x] Versão desktop
-- [] Versão mobile
-- [x] Fazer deploy
+- [x] Versão mobile
+- [x] Deploy na vercel
+- [ ] Readme
 
 ## ⚠️👨‍🔧README EM CONSTRUÇÃO👨‍🔧⚠️
