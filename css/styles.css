@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 body {
-  font-family: Ubuntu, sans-serif;
+  font-family: 'Press Start 2P',sans-serif;
   background-color: #000014;
   color: #fff;
 }
@@ -20,6 +20,10 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+main h2 {
+  font-size: 20px;
 }
 
 main img.face {
@@ -49,38 +53,42 @@ main .links a.link {
   width: 35%;
   padding: 13px 0;
   border-radius: 13px;
+  text-decoration: none;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
   margin: 23px auto;
 }
 
 main .links a.link img {
   width: 10%;
-  text-align: left;
+  margin-right: 13px;
 }
 
 main .links .twitter {
-  background-color: #0280BA;
+  background-color: #1DA1F2;
 }
 
 main .links .twitch {
-  background-color: #B695F0;
+  background-color: #9146ff;
 }
 
 main .links .github {
-  background-color: #BABABA;
+  background-color: #24292e;
 }
 
 main .links .youtube {
-  background-color: #ff9191;
+  background-color: #ff0000;
 }
 
 main .links .linkedin {

@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body{
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Press Start 2P',sans-serif;
     background-color: #000014;
     color: #fff;
 }
@@ -10,6 +10,9 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    h2{
+        font-size: 20px;
+    }
     img.face{
         width: 15%;
         border-radius: 50%;
@@ -25,27 +28,32 @@ main{
             width: 35%;
             padding: 13px 0;
             border-radius: 13px;
+            text-decoration: none;
+            color: #fff;
             display: flex;
-            justify-content: center;
+            box-sizing: border-box;
             align-items: center;
-            text-align: center;
+            justify-content: center;
+            font-size: 16px;
             margin: 23px auto;
+
+            img{
+                width: 10%;
+                margin-right: 13px;
+            }
         }
-        a.link img{
-            width: 10%;
-            text-align: left;
-        }
+        
         .twitter{
-            background-color:  #0280BA;
+            background-color:  #1DA1F2;
         }
         .twitch{
-            background-color: #B695F0;
+            background-color: #9146ff;
         }
         .github{
-            background-color:#BABABA;
+            background-color:#24292e;
         }
         .youtube{
-            background-color: #ff9191;
+            background-color: #ff0000;
         }
         .linkedin{
             background-color: #48B5F0;
