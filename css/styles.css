@@ -104,6 +104,15 @@ main .links a.ctrlplay img {
   width: 25%;
 }
 
+main .links a.roxxenergy {
+  background-color: #37cdf3;
+  width: 30%;
+}
+
+main .links a.roxxenergy img {
+  width: 20%;
+}
+
 @media (max-width: 800px) {
   main img.face {
     width: 30%;
